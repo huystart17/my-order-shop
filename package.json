@@ -1,0 +1,62 @@
+{
+  "name": "order-manager",
+  "description": "",
+  "version": "0.0.0",
+  "homepage": "",
+  "main": "src",
+  "keywords": [
+    "feathers"
+  ],
+  "author": {
+    "name": "huy",
+    "email": "nguyenhuy.yt@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "test": "npm run eslint && npm run mocha",
+    "eslint": "eslint src/. test/. --config .eslintrc.json",
+    "start": "node src/",
+    "build": "webpack ./public/index.js ./public/app.js --watch",
+    "mocha": "mocha test/ --recursive"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "compression": "^1.6.2",
+    "cors": "^2.8.3",
+    "feathers": "^2.1.1",
+    "feathers-authentication": "^1.2.2",
+    "feathers-authentication-hooks": "^0.1.2",
+    "feathers-authentication-jwt": "^0.3.1",
+    "feathers-authentication-local": "^0.3.4",
+    "feathers-authentication-oauth2": "^0.2.4",
+    "feathers-configuration": "^0.4.1",
+    "feathers-errors": "^2.6.3",
+    "feathers-hooks": "^1.8.1",
+    "feathers-hooks-common": "^3.0.0",
+    "feathers-mongoose": "^5.0.3",
+    "feathers-primus": "^2.1.0",
+    "feathers-rest": "^1.7.2",
+    "helmet": "^3.5.0",
+    "mithril": "^1.1.1",
+    "mongoose": "^4.9.4",
+    "passport-facebook": "^2.1.1",
+    "passport-google-oauth20": "^1.0.0",
+    "serve-favicon": "^2.4.2",
+    "webpack": "^2.3.3",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "mocha": "^3.2.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0"
+  }
+}

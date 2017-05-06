@@ -1,0 +1,51 @@
+form.register > label, form.login > label {
+  display: block;
+  margin: 10px;
+}
+
+form.register > label > span, form.login > label > span {
+  width: 200px;
+  display: inline-block;
+}
+
+.notify {
+  background: #fffceb;
+  display: block;
+}
+.min-height-400px{
+  min-height: 400px;
+}
+td,th {
+  vertical-align: top;
+}
+
+/*main {*/
+/*margin-top: 30px;*/
+/*}*/
+.h-30px {
+  height: 30px;
+}
+
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+.breadcrumb li {
+  display: inline;
+}
+.breadcrumb li+li:before {
+  content:" » ";
+}
+
+table tr:nth-child(odd) {
+  background: #fbf1a9;
+}
+table tr:nth-child(even) {
+  background: #e8fdf5;
+}
+
+table tr:first-child{
+  background-color: #9eebcf;
+  font-weight:bold;
+}
